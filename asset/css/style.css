@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #003566;
+    padding: 15px 0;
+    color: #fff;
+}
+
+header .container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd60a;
+}
+
+/* HERO / PROFILE */
+.hero {
+    background: linear-gradient(#001d3d, #003566);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero span {
+    color: #ffd60a;
+}
+
+.btn {
+    background: #ffd60a;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #001d3d;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #003566;
+}
+
+/* SKILLS */
+.skill-box p {
+    font-weight: bold;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background: #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background: #003566;
+    border-radius: 5px;
+}
+
+/* TEAM */
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    text-align: center;
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* PROJECTS */
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 280px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 150px;
+    align-self: center;
+}
+
+/* FOOTER */
+footer {
+    background: #001d3d;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    margin-top: 40px;
+}
